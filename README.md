@@ -10,7 +10,7 @@ This project is a text editor progressive web application that primarily runs in
     - [Git/GitBash](#gitgitbash---strongly-recommended)
     - [Visual Studio Code](#visual-studio-code-vsc---strongly-recommended)
     - [Node (REQUIRED)](#node-version-16---required-to-download-node-based-dependencies-ie-mongoose-and-express)
-    - [express (REQUIRED)](#express-version-4182---required-for-connecting-and-creating-routes-to-database)
+    - [dependencies (REQUIRED)](#dependencies---required)
 - [Usage](#usage)
 - [Credits](#credits)
 - [Questions](#questions)
@@ -34,25 +34,25 @@ Make sure the following are downloaded:
 
 * The Full-Stack Blog also has [instructions on how to download Node](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
-### `express version 4.17.1` - **REQUIRED** for connecting and creating routes to database
+### `dependencies` - **REQUIRED**
 
-* This **MUST** be installed into this repository, start by opening the command line interface.
+* These **MUST** be installed into this repository, start by opening the command line interface.
 
 * If you have Visual Code Studio, add this repository to the workspace. Then, go to 'Settings' either through the cog icon in the lower left corner and clicking Settings, go to File -> Preferences -> Settings in the menu bar, or the key combo of Ctrl+,
 
 Method 1 - Cog:
-![Finding settings through the "settings cog" icon in the lower left corner](./assets/screenshots/Finding-Settings-1.png)
+![Finding settings through the "settings cog" icon in the lower left corner](./assets/screenshots/Finding-Settings-1.PNG)
 
 Method 2 - File > Preferences > Setting:
-![Finding settings through File > Preferences > Settings in the navbar of Visual Studio Code](./assets/screenshots/Finding-Settings-2.png)
+![Finding settings through File > Preferences > Settings in the navbar of Visual Studio Code](./assets/screenshots/Finding-Settings-2.PNG)
 
 * Then, change the settings in "Terminal: Explorer Kind" to "external" in the drop down menu.
 
-![Changing "Terminal: Explorer Kind" Settings](./assets/screenshots/External-Terminal-Settings-1.png)
+![Changing "Terminal: Explorer Kind" Settings](./assets/screenshots/External-Terminal-Settings-1.PNG)
         
 * Change the filepath of the "Terminal > External: [respective operating system]" settings to the preferred command line interface program (either your system's Command Prompts's file path or Git/Git Bash's file path)
 
-![Changing "Terminal > External" Settings](./assets/screenshots/External-Terminal-Settings-2.png)
+![Changing "Terminal > External" Settings](./assets/screenshots/External-Terminal-Settings-2.PNG)
 
 * After that, right-click the repository and select "Open in External Terminal"
 
@@ -69,30 +69,25 @@ Method 2 - File > Preferences > Setting:
 
 ![User uses Change Directory (cd) to access repository through external terminal](./assets/screenshots/External-Terminal-Method-2.PNG)
 
-* Once this repository has been reached, type in `npm i express@4.17.1` into the terminal and hit `Enter`.
-
-<!-- * Once this repository has been reached, due to the large amount of dependencies, just type in `npm run install` to install all dependencies. This will include all the dependencies written in the `package.json` file-->
-
+* Once the root directory of this repository has been reached, due to the large amount of dependencies, type in `npm run install` to install all dependencies. This will include all the dependencies written in the `package.json` file
 
 ## Usage
 
-* This full-stack application's online version is deployed [here](#blank) on Heroku. However, as a PWA, it is also available to be downloaded as an application that can be used offline and will sync once it obtains internet connection.
+* This full-stack application's online version is deployed [here](https://jate-lee-claire-156.herokuapp.com/) on Heroku. After clicking the link, write whatever you'd like! As a PWA, it is also available to be downloaded as an application that can be used offline and will sync once it obtains internet connection.
 
-* Follow the same methods from the [Express Installation Section](#express-version-4171---required-for-connecting-and-creating-routes-to-database) to reach the root directory of this repository if you've already exited out of the command-line, then type in `npm run start` and hit `Enter`.
+* To download, click on the Install button on the upper left hand side of the webpage. After clicking, a prompt will appear. Once this application has been installed, the install button will no longer show the installation prompt upon clicking.
 
-* 
+### Developmental Usage
 
-* 
+* Follow the same methods from the [Dependencies Installation Section](#dependencies---required) to reach the root directory of this repository if you've already exited out of the command-line, then type in `npm run start` and hit `Enter`. *Note* that using `npm run start` will require you to delete and recreate the `dist` folder after each change. It is highly recommended to use `start:dev` for the developmental stages.
 
-* 
+* Got to localhost:3000 on your device to view the application.
 
 ## Credits
 
-* https://stackoverflow.com/questions/37831348/how-to-disable-npms-progress-bar
+* Credit to George Washington University's Full Stack Coding Camp Week 19: PWA Activity 28-Stu_Mini-Project for basis of the majority of code in the package.json, client/webpack.config.js, client/src-sw.js, client/src/js/install.js, and client/src/js/database.js files, and Activity  26-Stu_Manifest for other half of code in the client/js/database.js file.
 
-* 
-
-* 
+* Credit to [Jeanluca Scaljeri](https://stackoverflow.com/users/419425/jeanluca-scaljeri) and [MrWillihog](https://stackoverflow.com/users/461823/mrwillihog) for providing information on `progress=false` function in `.npmrc` file:<br></br>https://stackoverflow.com/questions/37831348/how-to-disable-npms-progress-bar
 
 ## Questions
 
