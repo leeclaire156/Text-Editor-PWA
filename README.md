@@ -1,8 +1,8 @@
-# Text Editor Progressive Web Application (PWA)
+# Just Another Text Editor (JATE) Progressive Web Application (PWA)
 
 ## Description
 
-This project is a text editor progressive web application that primarily runs in a browser but can operate offline. It also features data persistence techniques, allowing for getting and storing data from an `IndexedDB database`, regardless of internet connectivity. This project utilizes a package called `idb`, which is a lightweight wrapper around the IndexedDB API. `idb` is a popular wrapper, used by major companies such as Google and Mozilla, featuring a number of methods that are used to store and retrieve data.
+This project is a text editor progressive web application called "Just Another Text Editor" or JATE, that primarily runs in a browser but can operate offline. It also features data persistence techniques, allowing for getting and storing data from an `IndexedDB database`, regardless of internet connectivity. The text will reappear after closing the tab and coming back to it. This project utilizes a package called `idb`, which is a lightweight wrapper around the IndexedDB API. `idb` is a popular wrapper, used by major companies such as Google and Mozilla, featuring a number of methods that are used to store and retrieve data.
 
 
 ## Table of Contents
@@ -75,7 +75,13 @@ Method 2 - File > Preferences > Setting:
 
 * This full-stack application's online version is deployed [here](https://jate-lee-claire-156.herokuapp.com/) on Heroku. After clicking the link, write whatever you'd like! As a PWA, it is also available to be downloaded as an application that can be used offline and will sync once it obtains internet connection.
 
+![JATE's in browser version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-In-Browser.PNG)
+
 * To download, click on the Install button on the upper left hand side of the webpage. After clicking, a prompt will appear. Once this application has been installed, the install button will no longer show the installation prompt upon clicking.
+
+![JATE's installation prompt appearing after clicking the install button on the upper left hand corner](./assets/screenshots/JATE-Install.PNG)
+
+![JATE's app version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-App.PNG)
 
 ### Developmental Usage
 
