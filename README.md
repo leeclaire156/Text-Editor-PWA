@@ -88,7 +88,7 @@ Method 2 - File > Preferences > Setting:
 
 ## Credits
 
-* 
+* https://stackoverflow.com/questions/37831348/how-to-disable-npms-progress-bar
 
 * 
 
