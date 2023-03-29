@@ -75,13 +75,13 @@ Method 2 - File > Preferences > Setting:
 
 * This full-stack application's online version is deployed [here](https://jate-lee-claire-156.herokuapp.com/) on Heroku. After clicking the link, write whatever you'd like! As a PWA, it is also available to be downloaded as an application that can be used offline and will sync once it obtains internet connection.
 
-![JATE's in browser version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-In-Browser.PNG)
+![JATE's in browser version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-In-Browser-new.PNG)
 
 * To download, click on the Install button on the upper left hand side of the webpage. After clicking, a prompt will appear. Once this application has been installed, the install button will no longer show the installation prompt upon clicking.
 
-![JATE's installation prompt appearing after clicking the install button on the upper left hand corner](./assets/screenshots/JATE-Install.PNG)
+![JATE's installation prompt appearing after clicking the install button on the upper left hand corner](./assets/screenshots/JATE-Install-new.PNG)
 
-![JATE's app version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-App.PNG)
+![JATE's app version with "Hi there! Fancy seeing you here!" written](./assets/screenshots/JATE-App-new.PNG)
 
 ### Developmental Usage
 
