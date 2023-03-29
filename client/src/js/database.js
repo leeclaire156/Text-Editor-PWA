@@ -14,7 +14,6 @@ const initdb = async () =>
 
 // Accepts content and adds it to the database
 export const putDb = async (content) => {
-  try {
     console.log('PUT to the database');
 
     // Create a connection to the jate database and version we want to use.
@@ -26,20 +25,17 @@ export const putDb = async (content) => {
     // Open up the desired object store
     const store = tx.objectStore('jate');
 
-    // Use the .put() method to put data in
-    const request = store.put({ todo: content });
+    // Use the .put() method to put data in, all data will be id 1 and rewrite itself when edits are made
+    const request = store.put({ id: 1, value: content });
 
     // Get confirmation of the request.
     const result = await request;
     console.log('Data saved to the database', result);
-  } catch {
-    console.error('putDb not implemented');
-  }
+
 }
 
 // Gets all the content from the database
 export const getDb = async () => {
-  try {
     console.log('GET all from the database');
 
     // Create a connection to the jate database and version we want to use.
@@ -57,10 +53,7 @@ export const getDb = async () => {
     // Get confirmation of the request.
     const result = await request;
     console.log('result.value', result);
-    return result;
-  } catch {
-    console.error('getDb not implemented');
-  }
+    return result.value;
 }
 
 initdb();
